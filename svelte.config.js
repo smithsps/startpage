@@ -22,9 +22,6 @@ const config = {
 		adapter: adapter({
 			fallback: 'index.html'
 		}),
-		paths: {
-			base: dev ? '' : '/startpage'
-		},
 		// If you are not using a .nojekyll file, change your appDir to something not starting with an underscore.
 		// For example, instead of '_app', use 'app_', 'internal', etc.
 		appDir: 'internal',
