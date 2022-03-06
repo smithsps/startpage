@@ -58,6 +58,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fontsource/inter@npm:^4.5.4":
+  version: 4.5.4
+  resolution: "@fontsource/inter@npm:4.5.4"
+  checksum: 72a82add6e385bff3e13ef962a8f4ef5a37e3843d4841d47d46de4d32caab6fed140897edd39613afaa55c765b0ad8c0ce5cf0fa434a24954e48c780fbf00dff
+  languageName: node
+  linkType: hard
+
 "@gar/promisify@npm:^1.0.1":
   version: 1.1.3
   resolution: "@gar/promisify@npm:1.1.3"
@@ -2729,6 +2736,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "startpage@workspace:."
   dependencies:
+    "@fontsource/inter": ^4.5.4
     "@sveltejs/adapter-static": next
     "@sveltejs/kit": next
     "@typescript-eslint/eslint-plugin": ^5.10.1
