@@ -191,6 +191,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tailwindcss/forms@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "@tailwindcss/forms@npm:0.5.0"
+  dependencies:
+    mini-svg-data-uri: ^1.2.3
+  peerDependencies:
+    tailwindcss: ">=3.0.0 || >= 3.0.0-alpha.1"
+  checksum: 3e57584871bc41947f2a1518deaf69894b75745dee959bb2ba475c819eadec2b86f8bf6e73a051ddab627df4c8c3ad1d18239d48b3a95211be3b11a04dee0511
+  languageName: node
+  linkType: hard
+
 "@tootallnate/once@npm:2":
   version: 2.0.0
   resolution: "@tootallnate/once@npm:2.0.0"
@@ -1981,6 +1992,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mini-svg-data-uri@npm:^1.2.3":
+  version: 1.4.3
+  resolution: "mini-svg-data-uri@npm:1.4.3"
+  bin:
+    mini-svg-data-uri: cli.js
+  checksum: bd1789c34907a36ae9157897b7c7f6ad700e71c8cb6d725bb2810ce6211abcaa3717333ca17408f6f8b2a44055e571cd5b78d478688e1864513cb7f8e023ae3f
+  languageName: node
+  linkType: hard
+
 "minimatch@npm:^3.0.4":
   version: 3.1.2
   resolution: "minimatch@npm:3.1.2"
@@ -2739,6 +2759,7 @@ __metadata:
     "@fontsource/inter": ^4.5.4
     "@sveltejs/adapter-static": next
     "@sveltejs/kit": next
+    "@tailwindcss/forms": ^0.5.0
     "@typescript-eslint/eslint-plugin": ^5.10.1
     "@typescript-eslint/parser": ^5.10.1
     autoprefixer: ^10.4.2
