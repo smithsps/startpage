@@ -19,9 +19,10 @@ const config = {
 	}),
 
 	kit: {
-		adapter: adapter({
-			fallback: 'index.html'
-		}),
+		adapter: adapter(),
+		prerender: {
+			default: true
+		},
 		inlineStyleThreshold: 100000000,
 
 		// For example, instead of '_app', use 'app_', 'internal', etc.
