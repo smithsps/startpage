@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-c9dd807a.js",
+    "file": "start-d97bf0bf.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -13,7 +13,7 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-7bb57eab.js",
+    "file": "pages/__layout.svelte-9a078f5b.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -21,7 +21,16 @@
       "_vendor-2bdf7795.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-4d21a9fa.css"
+      "assets/pages/__layout.svelte-7fa1e759.css"
+    ],
+    "assets": [
+      "assets/inter-cyrillic-variable-wghtOnly-normal-18d25d3b.woff2",
+      "assets/inter-cyrillic-ext-variable-wghtOnly-normal-475c67f0.woff2",
+      "assets/inter-greek-variable-wghtOnly-normal-09d42251.woff2",
+      "assets/inter-greek-ext-variable-wghtOnly-normal-27a9c716.woff2",
+      "assets/inter-latin-variable-wghtOnly-normal-acdc8f60.woff2",
+      "assets/inter-latin-ext-variable-wghtOnly-normal-2a8074d1.woff2",
+      "assets/inter-vietnamese-variable-wghtOnly-normal-643e4e0a.woff2"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
@@ -34,7 +43,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-7396c44e.js",
+    "file": "pages/index.svelte-d662eb04.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
